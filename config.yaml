@@ -1,0 +1,48 @@
+packages_to_ignore:
+  # Apache packages
+  - org.apache
+
+  # Spring Framework packages
+  - org.springframework
+
+  # Java core networking
+  - java.net
+  - sun.nio
+  - javax.net
+  - com.sun.proxy
+  - java.util
+  - javax.servlet
+
+  # Java IO operations
+  - java.io
+
+  # Database related
+  - com.mysql
+  - oracle.jdbc
+  - com.zaxxer.hikari
+
+  # Java reflection
+  - sun.reflect
+  - java.lang.reflect
+
+  # Generic Java runtime packages
+  - java.lang.Thread
+  - java.util.concurrent
+  - sun.misc
+
+  # Logging frameworks
+  - org.slf4j
+  - ch.qos.logback
+
+  # Common utilities
+  - com.google.common
+  - com.google.inject
+  - org.json
+  - com.fasterxml.jackson
+  - org.skife.jdbi
+  - com.atomikos
+  - org.eclipse.jetty
+
+  # JVM internal
+  - jdk.internal
+  - sun.misc
